@@ -62,7 +62,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card shadow-sm">
                         <div class="card-body">
-                            <h5 class="card-title"><span class="card-icon">&#128396;</span>For Color ${i}</h5>
+                            <h5 class="card-title"><span class="card-icon">&#128396;</span>Sticker Required For Color ${i}</h5>
                             <p class="card-text"><span class="badge badge-primary badge-pill">${colorQty}</span></p>
                            
                         </div>
@@ -74,18 +74,11 @@
         const bundleQty = (totalQty / bundlePackSize).toFixed(2);
 
         resultsHtml += `
+            
             <div class="col-md-4 mb-4">
                 <div class="card shadow-sm">
                     <div class="card-body">
-                        <h5 class="card-title"><span class="card-icon">&#128221;</span>Grand Total of Color Qty</h5>
-                        <p class="card-text"><span class="badge badge-success badge-pill">${grandTotalColorQty.toFixed(2)}</span></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title"><span class="card-icon">&#128736;</span>For Bundle</h5>
+                        <h5 class="card-title"><span class="card-icon">&#128736;</span>Master Sticker Required</h5>
                         <p class="card-text"><span class="badge badge-warning badge-pill">${bundleQty}</span></p>
                         
                     </div>
